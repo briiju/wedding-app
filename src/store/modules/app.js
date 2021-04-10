@@ -33,14 +33,14 @@ const state = {
       to: '/components/icons/',
     },
     {
-      title: 'Google Maps',
-      icon: 'mdi-map-marker',
-      to: '/maps/google/',
+      title: 'Venue Info',
+      icon: 'mdi-church',
+      to: '/info/venue/',
     },
     {
-      title: 'Notifications',
-      icon: 'mdi-bell',
-      to: '/components/notifications/',
+      title: 'Hotel Info',
+      icon: 'mdi-bed-outline',
+      to: '/info/hotel/',
     },
   ],
 }

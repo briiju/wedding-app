@@ -41,22 +41,6 @@
 
     data: () => ({
       links: [
-        {
-          href: 'https://vuetifyjs.com/',
-          text: 'Vuetify Docs',
-        },
-        {
-          href: '#',
-          text: 'About Us',
-        },
-        {
-          href: '#',
-          text: 'Blog',
-        },
-        {
-          href: '#',
-          text: 'Licenses',
-        },
       ],
     }),
   }

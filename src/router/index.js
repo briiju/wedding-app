@@ -26,7 +26,6 @@ const router = new Router({
       route('UserProfile', null, 'components/profile'),
 
       // Components
-      route('Notifications', null, 'components/notifications'),
       route('Icons', null, 'components/icons'),
       route('Typography', null, 'components/typography'),
 
@@ -34,7 +33,8 @@ const router = new Router({
       route('Regular Tables', null, 'tables/regular'),
 
       // Maps
-      route('Google Maps', null, 'maps/google'),
+      route('Venue Info', null, 'info/venue'),
+      route('Hotel Info', null, 'info/hotel'),
     ]),
   ],
 })
