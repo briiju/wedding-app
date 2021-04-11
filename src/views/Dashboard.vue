@@ -48,7 +48,7 @@
           heading: 'Welcome!',
           contents: [
             'We are getting married on 10/22/2022!!! We hope to see you there!',
-            'Check the sidebar for informational pages that will be updates periodically',
+            'Check the sidebar for informational pages that will be updated periodically',
           ],
         },
       ],
