@@ -71,7 +71,7 @@
         {
           heading: 'Info',
           contents: [
-            'Complimentart shuttle to venue available',
+            'Complimentary shuttle to venue available',
             'For block pricing, mention xxxxx',
           ],
         },
