@@ -32,7 +32,7 @@
             v-if="heading"
             class="text-h4 white--text pa-7 v-card--material__title"
           >
-            {{ heading }}
+            <strong>{{ heading }}</strong>
           </div>
         </v-theme-provider>
       </v-sheet>

@@ -4,7 +4,7 @@
     app
     absolute
     class="v-bar--underline"
-    color="transparent"
+    color="accent"
     :clipped-left="$vuetify.rtl"
     :clipped-right="!$vuetify.rtl"
     height="70"
@@ -18,9 +18,10 @@
     <default-drawer-toggle class="hidden-sm-and-down" />
 
     <v-toolbar-title
-      class="font-weight-light text-h5"
+      class="font-weight-light text-h5 white--text"
       v-text="name"
     />
+    <!-- <strong class="white--text">{{ name }}</strong> -->
 
     <v-spacer />
   </v-app-bar>
