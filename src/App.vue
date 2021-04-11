@@ -11,8 +11,8 @@
   export default {
     name: 'App',
     metaInfo: {
-      title: 'App',
-      titleTemplate: '%s | Herb And Alyssa',
+      title: 'Wedding',
+      titleTemplate: 'Herb And Alyssa',
       htmlAttrs: { lang: 'en' },
       meta: [
         { charset: 'utf-8' },

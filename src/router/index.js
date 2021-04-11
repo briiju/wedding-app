@@ -22,16 +22,6 @@ const router = new Router({
     layout('Default', [
       route('Dashboard'),
 
-      // Pages
-      route('UserProfile', null, 'components/profile'),
-
-      // Components
-      route('Icons', null, 'components/icons'),
-      route('Typography', null, 'components/typography'),
-
-      // Tables
-      route('Regular Tables', null, 'tables/regular'),
-
       // Maps
       route('Venue Info', null, 'info/venue'),
       route('Hotel Info', null, 'info/hotel'),
