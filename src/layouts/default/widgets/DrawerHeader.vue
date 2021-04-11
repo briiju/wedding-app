@@ -9,9 +9,10 @@
 
     <v-list-item-content class="">
       <v-list-item-title class="text-h3">
-        <strong class="mr-1">HERB</strong>
+        <strong class="mr-1 blue--text text--lighten-2">HERB</strong>
+        <strong class="primary--text text--lighten-2">ALYSSA</strong>
 
-        <strong class="primary--text">ALYSSA</strong>
+        <!-- <strong class="primary--text">ALYSSA</strong> -->
       </v-list-item-title>
     </v-list-item-content>
   </v-list-item>
