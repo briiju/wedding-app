@@ -3,7 +3,7 @@ const fs = require('fs');
 module.exports = {
   devServer: {
     disableHostCheck: true,
-    port: 3111
+    port: 80
   },
   transpileDependencies: ['vuetify'],
 }
