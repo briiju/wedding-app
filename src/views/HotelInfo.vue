@@ -20,7 +20,11 @@
                 v-for="(content, j) in item.contents"
                 :key="j"
               >
-                {{ content }}
+                <span
+                  class="blue--text text--darken-3"
+                  style="font-size: large;font-weight: bold;"
+                >{{ content.head }} </span>
+                <span>{{ content.text }}</span>
               </p>
             </v-sheet>
           </v-card-text>
@@ -71,8 +75,14 @@
         {
           heading: 'Info',
           contents: [
-            'Complimentary shuttle to venue available',
-            'For block pricing, mention xxxxx',
+            {
+              head: 'Complimentary Shuttle',
+              text: 'to venue available',
+            },
+            {
+              head: 'For Block Pricing',
+              text: 'mention <put our block pricing name here>',
+            },
           ],
         },
       ],

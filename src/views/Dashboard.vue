@@ -21,7 +21,11 @@
                 v-for="(content, j) in item.contents"
                 :key="j"
               >
-                {{ content }}
+                <span
+                  class="blue--text text--darken-3"
+                  style="font-size: large;font-weight: bold;"
+                >{{ content.head }} </span>
+                <span>{{ content.text }}</span>
               </p>
             </v-sheet>
           </v-card-text>
@@ -47,8 +51,18 @@
         {
           heading: 'Welcome!',
           contents: [
-            'We are getting married on 10/22/2022!!! We hope to see you there!',
-            'Check the sidebar for informational pages that will be updated periodically',
+            {
+              head: 'We are getting married on 10/22/2022!!!',
+              text: 'We hope to see you there!',
+            },
+            {
+              head: 'Check the Sidebar',
+              text: 'for informational pages that will be updated periodically',
+            },
+            {
+              head: 'Don\'t Worry!',
+              text: 'We did not send out save the dates or invites yet. Save the dates will be sent out about 12 months in advance.',
+            },
           ],
         },
       ],

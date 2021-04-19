@@ -20,7 +20,11 @@
                 v-for="(content, j) in item.contents"
                 :key="j"
               >
-                {{ content }}
+                <span
+                  class="blue--text text--darken-3"
+                  style="font-size: large;font-weight: bold;"
+                >{{ content.head }}: </span>
+                <span>{{ content.text }}</span>
               </p>
             </v-sheet>
           </v-card-text>
@@ -71,10 +75,22 @@
         {
           heading: 'Info',
           contents: [
-            'Ceremony Starts at 5:00 pm',
-            'Cocktail Hour Start at 5:30 pm',
-            'Dinner Starts 6:30 pm (Serving at 7pm)',
-            'Skiddadle at 11:30 pm',
+            {
+              head: 'Ceremony',
+              text: 'Starts at 5:00pm',
+            },
+            {
+              head: 'Cocktail Hour',
+              text: 'Starts at 5:30pm',
+            },
+            {
+              head: 'Dinner',
+              text: 'Starts at 6:30 pm (Serving at 7pm)',
+            },
+            {
+              head: 'Skiddadle',
+              text: 'at 11:30pm',
+            },
           ],
         },
       ],
