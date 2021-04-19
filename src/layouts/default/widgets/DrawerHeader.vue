@@ -3,7 +3,7 @@
     <v-list-item-avatar>
       <v-img
         :src="
-          require('@/assets/vmd.svg')"
+          require('@/assets/download.png')"
       />
     </v-list-item-avatar>
 
