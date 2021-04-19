@@ -71,10 +71,10 @@
         {
           heading: 'Info',
           contents: [
-            'Ceremony Starts xx:xx pm',
-            'Cocktail Hour Follows',
-            'Dinner Starts xx:xx pm',
-            'Party Time Starts xx:xx pm',
+            'Ceremony Starts at 5:00 pm',
+            'Cocktail Hour Start at 5:30 pm',
+            'Dinner Starts 6:30 pm (Serving at 7pm)',
+            'Skiddadle at 11:30 pm',
           ],
         },
       ],
