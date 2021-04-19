@@ -4,7 +4,7 @@
     app
     absolute
     class="v-bar--underline"
-    color="accent"
+    color="blue"
     :clipped-left="$vuetify.rtl"
     :clipped-right="!$vuetify.rtl"
     height="70"

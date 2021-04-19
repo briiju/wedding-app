@@ -4,7 +4,7 @@
     :rel="item.href ? 'nofollow' : undefined"
     :target="item.href ? '_blank' : undefined"
     :to="item.to"
-    active-class="primary white--text"
+    active-class="blue white--text"
     link
     class="py-1"
     v-bind="$attrs"

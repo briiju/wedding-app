@@ -13,7 +13,7 @@
       >
         <material-card
           :heading="item.heading"
-          color="accent"
+          color="blue"
         >
           <v-card-text>
             <v-sheet>
