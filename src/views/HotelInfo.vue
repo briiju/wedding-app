@@ -81,7 +81,7 @@
             },
             {
               head: 'For Block Pricing',
-              text: 'mention <put our block pricing name here>',
+              text: 'mention <b>"Mason and Bieszke Wedding"</b>',
             },
           ],
         },
