@@ -25,6 +25,11 @@
                   style="font-size: large;font-weight: bold;"
                 >{{ content.head }} </span>
                 <span>{{ content.text }}</span>
+                <strong
+                  v-if="content.boldEnd"
+                >
+                  {{ content.boldEnd }}
+                </strong>
               </p>
             </v-sheet>
           </v-card-text>
@@ -81,7 +86,8 @@
             },
             {
               head: 'For Block Pricing',
-              text: 'mention <b>"Mason and Bieszke Wedding"</b>',
+              text: 'mention ',
+              boldEnd: '"Mason and Bieszke Wedding"'
             },
           ],
         },
