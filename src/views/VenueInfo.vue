@@ -96,10 +96,13 @@
               head: 'Address',
               text: '52000 Cherry Creek Dr, Shelby Township, MI 48316',
             },
-            },
             {
               head: 'Phone Number',
               text: '(586) 254-7700',
+            },
+            {
+              head: 'Open Bar with Craft Beer',
+              text: 'The heading speaks for itself. I don\'t need to put anything here',
             },
           ],
         },
