@@ -91,6 +91,16 @@
               head: 'Skiddadle',
               text: 'at 11:30pm',
             },
+            },
+            {
+              head: 'Address',
+              text: '52000 Cherry Creek Dr, Shelby Township, MI 48316',
+            },
+            },
+            {
+              head: 'Phone Number',
+              text: '(586) 254-7700',
+            },
           ],
         },
       ],

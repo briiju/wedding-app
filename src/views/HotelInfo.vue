@@ -82,12 +82,20 @@
           contents: [
             {
               head: 'Complimentary Shuttle',
-              text: 'to venue available',
+              text: 'to venue available. Timing and frequency is TBD, we are working with the hotel to find the best timing. If you schedule your hotel early then that will help us determine the amound of busses and frequency.',
             },
             {
-              head: 'For Block Pricing',
+              head: 'For Group Discount Pricing',
               text: 'mention ',
               boldEnd: '"Mason and Bieszke Wedding"'
+            },
+            {
+              head: 'Address',
+              text: '50741 Corporate Dr, Shelby Township, MI 48315',
+            },
+            {
+              head: 'Phone Number',
+              text: '(586) 473-0200',
             },
           ],
         },
