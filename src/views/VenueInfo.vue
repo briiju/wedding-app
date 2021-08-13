@@ -100,8 +100,8 @@
               text: '(586) 254-7700',
             },
             {
-              head: 'Open Bar with Craft Beer',
-              text: 'The heading speaks for itself. I don\'t need to put anything here',
+              head: 'Open Bar',
+              // text: 'The heading speaks for itself. I don\'t need to put anything here',
             },
           ],
         },
