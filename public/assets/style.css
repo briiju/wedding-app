@@ -1699,6 +1699,22 @@ header .menus nav ul li:last-child a {
   border-radius: 38px;
   font-weight: bolder;
 }
+#hotel-button {
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #2ca0f1;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 5px;
+  -webkit-border-radius: 38px;
+  -moz-border-radius: 38px;
+  -ms-border-radius: 38px;
+  border-radius: 38px;
+  font-weight: bolder;
+}
 
 /*....................................
 3. Slider area start here
@@ -1854,7 +1870,7 @@ header .menus nav ul li:last-child a {
 }
 .slider-area .sliders .slider-list .slider-con {
   position: absolute;
-  top: 42%;
+  top: 52%;
   right: 0;
   left: 0;
   text-align: right;
