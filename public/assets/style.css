@@ -2525,7 +2525,7 @@ header .menus nav ul li:last-child a {
 .family_area_2 {
   position: relative;
   display: block;
-  background: url(images/banner/bg-4.jpg);
+  /* background: url(images/banner/bg-4.jpg); */
 }
 .family_area_2:after {
   background: rgba(0, 0, 0, 0.8);
@@ -3152,7 +3152,7 @@ header .menus nav ul li:last-child a {
 .contact_area_2 {
   position: relative;
   display: block;
-  background: url(images/banner/bg-2.jpg);
+  /* background: url(images/banner/bg-2.jpg); */
 }
 .contact_area_2::after {
   background: rgba(0, 0, 0, 0.85);
@@ -3232,7 +3232,7 @@ header .menus nav ul li:last-child a {
 .rspv_area_2 {
   position: relative;
   display: block;
-  background: url(images/banner/bg-3.jpg);
+  /* background: url(images/banner/bg-3.jpg); */
 }
 .rspv_area_2::after {
   background: rgba(0, 0, 0, 0.85);
