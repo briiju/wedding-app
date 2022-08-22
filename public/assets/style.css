@@ -3308,6 +3308,16 @@ header .menus nav ul li:last-child a {
   width: 100%;
   display: block;
 }
+.rspv_area_2 .rspv-forms form fieldset textarea {
+  height: 100px;
+  line-height: 50px;
+  background: #fff;
+  border: none;
+  color: #222;
+  padding: 0 20px;
+  width: 100%;
+  display: block;
+}
 .rspv_area_2 .rspv-forms form a {
   background: #222;
 }

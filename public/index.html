@@ -1119,7 +1119,7 @@
 
                 <div class="row">
 
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12" style="padding-top:45px;">
 
                         <div class="rspv-forms">
 
@@ -1130,45 +1130,17 @@
                             </div>
 
                             <form>
-                                <h2 style="color:whitesmoke">RSVP via website will be available</h2><p style="color:whitesmoke">After invites are sent out</p>
-<!-- Start RSVP
+                                <!-- <h2 style="color:whitesmoke">RSVP via website will be available</h2><p style="color:whitesmoke">After invites are sent out</p> -->
+
                                 <fieldset><input type="text" name="full_name" placeholder="First Name" class="require"></fieldset>
 
                                 <fieldset><input type="text" name="full_name"  placeholder="Last Name" class="require"></fieldset>
 
-                                <fieldset><input type="email" name="email" placeholder="Email" class="require" data-valid="email" data-error="Email should be valid."></fieldset>
+                                <fieldset><input type="number" name="phone" placeholder="Phone Number" class="require"></fieldset>
 
-                                <fieldset>
+                                <fieldset><input type="number" name="guest_no" placeholder="Number of Guests" class="require"></fieldset>
 
-                                    <select name="guest_no" class="require">
-
-                                        <option>Guest</option>
-
-                                        <option>1</option>
-
-                                        <option>2</option>
-
-                                        <option>3</option>
-
-                                    </select>
-
-                                </fieldset>
-
-                                <fieldset>
-
-                                    <select name="event_name" class="require">
-
-                                        <option>All Events</option>
-
-                                        <option>All Events</option>
-
-                                        <option>All Events</option>
-
-                                        <option>All Events</option>
-
-                                    </select>
-
-                                </fieldset>
+                                <fieldset><textarea name="message" placeholder="Message (dietary restrictions, etc)"></textarea></fieldset>
 
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
@@ -1176,9 +1148,8 @@
 
 								</div>
 
-								 <button type="button" class="submitFormRsvp btn1" form-type="inquiry">I Am Attenting</button>
-
-                                End RSVP -->
+                                <button type="button" class="submitFormRsvp btn1" form-type="inquiry">I Am Attenting</button>
+                                <button type="button" class="submitFormRsvp btn1" form-type="inquiry" style="margin-top:10px">I Am Not Attenting</button>
 
                             </form>
 
@@ -1191,6 +1162,15 @@
                         <div class="testimonial" style="padding: 3vw; text-align: left;">
 
                             <div class="listoftesti">
+                                
+                                <h2 style="color:whitesmoke">Gift Registries</h2>
+                                <!-- <p style="padding-bottom: 10px">
+                                    <a id="hotel-button" onclick="window.open('https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/551259991','_blank')">Bed Bath and Beyond</a>
+                                </p> -->
+                                <p style="margin-top:10px;padding-bottom: 10px">
+                                    <a id="hotel-button" onclick="window.open('https://www.myregistry.com/wedding-registry/alyssa-mason-and-herbert-bieszke-royal-oak-mi/3220244','_blank')">My Registry</a>
+                                </p>
+                                <hr></hr>
                                 <h2 style="color:whitesmoke">Cambria Hotel Detroit-Shelby Township</h2>
 
                                 <p>
@@ -1336,7 +1316,7 @@
 
                                     <fieldset><input type="Email" name="email" placeholder="Email" class="require" data-valid="email" data-error="Email should be valid."></fieldset>
 
-                                    <fieldset><input type="number" name="contact_no" placeholder="Phone" class="require"></fieldset>
+                                    <fieldset><input type="number" name="contact_no" placeholder="Phone Number" class="require"></fieldset>
 
                                 </div>
 
@@ -1432,7 +1412,7 @@
 
 
 
-        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
 
         <script>
 
@@ -1579,7 +1559,7 @@
 
           }
 
-            google.maps.event.addDomListener(window, 'load', initialize);
+            // google.maps.event.addDomListener(window, 'load', initialize);
 
         </script>
 

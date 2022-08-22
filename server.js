@@ -12,9 +12,9 @@ app.post('/rsvp', async (req, res) => {
     console.log('got an rsvp post request', req.body);
     let params = {
         fullName: _.get(req, 'body.full_name'),
-        email: _.get(req, 'body.email'),
+        phone: _.get(req, 'body.phone'),
         guests: _.get(req, 'body.guest_no'),
-        events: _.get(req, 'body.event_name')
+        message: _.get(req, 'body.message')
     };
 
     if (_.isNil(params.fullName) || _.isNil(params.email) ||
