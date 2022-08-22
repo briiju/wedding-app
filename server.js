@@ -14,11 +14,12 @@ app.post('/rsvp', async (req, res) => {
         fullName: _.get(req, 'body.full_name'),
         phone: _.get(req, 'body.phone'),
         guests: _.get(req, 'body.guest_no'),
-        message: _.get(req, 'body.message')
+        message: _.get(req, 'body.message'),
+        attending: _.get(req, 'body.attending')
     };
 
-    if (_.isNil(params.fullName) || _.isNil(params.email) ||
-    _.isNil(params.guests) || _.isNil(params.events)) {
+    if (_.isNil(params.fullName) || _.isNil(params.phone) ||
+    _.isNil(params.guests) || _.isNil(params.attending)) {
         return res.status(400).send({ message: 'Missing parameters!' });
     }
 
