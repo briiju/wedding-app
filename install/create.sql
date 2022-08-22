@@ -25,3 +25,9 @@ ADD COLUMN updated TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP;
 ALTER TABLE haa_data.rsvp
 ADD COLUMN acknowledged boolean DEFAULT false,
 ADD COLUMN updated TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP;
+
+--- STEP 2
+ALTER TABLE haa_data.rsvp
+RENAME COLUMN email TO phone,
+haa_data.rsvp RENAME COLUMN events TO message,
+haa_data.rsvp ADD COLUMN attending boolean DEFAULT true;

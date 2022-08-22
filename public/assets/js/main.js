@@ -303,7 +303,32 @@
 			$.ajax({
 				method : 'post',
 				url : 'rsvp',
-				data: JSON.stringify(checkResult.params),
+				data: JSON.stringify({...checkResult.params, attending: true}),
+				dataType: 'json',
+				cache:false,
+				contentType: 'application/json',
+				processData: false
+			}).done(function(resp){
+				if(resp.success){
+					targetForm.find('input').val('');
+					targetForm.find('textarea').val('');
+					errroTarget.html('<p style="color:green;">Your message has been sent successfully.</p>');
+				}else{
+					errroTarget.html('<p style="color:red;">Something went wrong please try again later.</p>');
+				}
+			});
+		}
+	});
+	$(".submitNotAttending").on("click", function() {
+		var _this = $(this);
+		var targetForm = _this.closest('form');
+		var errroTarget = targetForm.find('.response');
+		var checkResult = checkRequire(targetForm , errroTarget);
+		if(checkResult.check == 0){
+			$.ajax({
+				method : 'post',
+				url : 'rsvp',
+				data: JSON.stringify({...checkResult.params, attending: false}),
 				dataType: 'json',
 				cache:false,
 				contentType: 'application/json',

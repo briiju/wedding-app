@@ -1138,7 +1138,7 @@
 
                                 <fieldset><input type="number" name="phone" placeholder="Phone Number" class="require"></fieldset>
 
-                                <fieldset><input type="number" name="guest_no" placeholder="Number of Guests" class="require"></fieldset>
+                                <fieldset><input type="number" name="guest_no" placeholder="Number of Guests" class="require" min="0" max="7"></fieldset>
 
                                 <fieldset><textarea name="message" placeholder="Message (dietary restrictions, etc)"></textarea></fieldset>
 
@@ -1149,7 +1149,7 @@
 								</div>
 
                                 <button type="button" class="submitFormRsvp btn1" form-type="inquiry">I Am Attenting</button>
-                                <button type="button" class="submitFormRsvp btn1" form-type="inquiry" style="margin-top:10px">I Am Not Attenting</button>
+                                <button type="button" class="submitNotAttending btn1" form-type="inquiry" style="margin-top:10px">Not Attenting</button>
 
                             </form>
 
