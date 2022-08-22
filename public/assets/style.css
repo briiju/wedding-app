@@ -2412,7 +2412,6 @@ header .menus nav ul li:last-child a {
 .info_area_2 .info-list .content {
   display: inline-block;
   width: calc(100% - 100px);
-  height: 100px;
   display: table-cell;
   vertical-align: middle;
   padding-left: 20px;
