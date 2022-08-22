@@ -239,9 +239,9 @@
 		$('#er_msg').remove();
 		var target = (typeof formId == 'object')? $(formId):$('#'+formId);
 		target.find('input , textarea , select').each(function(){
+			params[this.name] = val
 			if($(this).hasClass('require')){
 				var val = $(this).val().trim();
-				params[this.name] = val
 				if(val == ''){
 					check = 1;
 					$(this).focus();

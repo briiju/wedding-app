@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.post('/rsvp', async (req, res) => {
     console.log('got an rsvp post request', req.body);
     let params = {
-        fullName: _.get(req, 'body.full_name'),
+        fullName: `${_.get(req, 'body.first_name')} ${_.get(req, 'body.last_name')}`,
         phone: _.get(req, 'body.phone'),
         guests: _.get(req, 'body.guest_no'),
         message: _.get(req, 'body.message'),
