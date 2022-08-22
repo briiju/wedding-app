@@ -191,13 +191,13 @@
 	    var dd = e.getDate();
 	    var mm = e.getMonth() + 1;
 	    var y = e.getFullYear();
-	    var futureFormattedDate = mm + "/" + dd + "/" + y + ' 13:00:00';
+	    var futureFormattedDate = mm + "/" + dd + "/" + y + ' 17:00:00';
 	    return futureFormattedDate;
 	}
 
 	$('.count-number').downCount({
 		date: e(),
-	    offset: 16
+	    offset: -4
 	});
 /*--------------------------
 10. bxslider active
